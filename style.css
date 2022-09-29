@@ -1,0 +1,15 @@
+input:-webkit-autofill{
+    border: 3px solid blue;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        border: 5px dashed red;
+    }
+
+    to {
+        border: 5px solid black;
+    }
+}
